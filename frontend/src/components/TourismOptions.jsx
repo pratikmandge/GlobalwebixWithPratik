@@ -20,7 +20,7 @@ export default function TourismOptions() {
     ];
 
     return (
-        <section className="px-4 py-12 max-w-7xl mx-auto text-center">
+        <section className="px-12 py-12 max-w-7xl mx-auto text-center">
             <h2 className="text-[32px] sm:text-[40px] lg:text-[44px] font-semibold mb-6 font-plusJakarta">
                 We Build Websites for Every Corner of the Tourism Industry
             </h2>

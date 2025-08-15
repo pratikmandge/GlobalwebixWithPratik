@@ -32,7 +32,7 @@ export default function ChooseUs() {
     ];
 
     return (
-        <section className="bg-[#FFF0E2] py-12">
+        <section className="bg-[#FFF0E2] py-12 px-12">
             <div className="container mx-auto px-4">
                 <div className="bg-[#FFFFFF] container mx-auto px-4">
                     {/* Title Section */}

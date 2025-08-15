@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function PricingAndSignUp() {
     return (
-        <section className="flex flex-col lg:flex-row items-center justify-between px-4 py-8 gap-10">
+        <section className="flex flex-col lg:flex-row items-center justify-between px-12 py-8 gap-10">
             {/* Left Section */}
             <div className="lg:w-1/2 space-y-4">
                 <p className="text-[#B23A00] text-3xl font-medium py-2 rounded-full">

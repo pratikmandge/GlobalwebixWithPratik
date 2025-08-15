@@ -6,7 +6,7 @@ export default function ImpactNumbers() {
     ];
 
     return (
-        <section className="flex flex-wrap justify-between gap-8 px-4 py-10">
+        <section className="flex flex-wrap justify-between gap-8 px-12 py-10">
             {impactedNumbers.map((item, index) => (
                 <div
                     key={index}

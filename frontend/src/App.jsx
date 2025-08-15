@@ -5,6 +5,9 @@ import WebsiteSamples from './components/WebsiteSamples';
 import TourismOptions from './components/TourismOptions';
 import PricingAndSignUp from './components/PricingAndSignUp';
 import ChooseUs from './components/ChooseUs';
+import ExtraServices from './components/ExtraServices';
+import Testemonials from './components/Testemonials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <TourismOptions />
         <PricingAndSignUp />
         <ChooseUs />
+        <ExtraServices />
+        <Testemonials />
+        <Footer />
       </main>
     </div>
   );

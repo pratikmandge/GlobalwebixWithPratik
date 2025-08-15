@@ -15,7 +15,7 @@ export default function WebsiteSamples() {
     ];
 
     return (
-        <section className="px-2 py-8 max-w-7xl mx-auto text-center">
+        <section className="px-12 py-8 max-w-7xl mx-auto text-center">
             {/* Top Heading */}
             <p className="text-[32px] sm:text-[40px] lg:text-[48px] font-semibold mb-10" style={{ fontFamily: "Plus Jakarta Sans" }}>
                 We get your business—so we build what works.

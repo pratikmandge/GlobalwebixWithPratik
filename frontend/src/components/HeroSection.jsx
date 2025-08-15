@@ -8,13 +8,14 @@ import brand3 from "../assets/brands/maze.svg"
 export default function HeroSection() {
     return (
         <section
-            className="bg-cover bg-center text-white px-8 py-16"
+            className=" relative bg-cover bg-center text-white px-8 py-16"
             style={{ backgroundImage: `url(${backgroundImg})` }}
         >
+            {/* <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-black mask-x-to-transparent rounded-b-xl z-0"></div> */}
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-3 items-center pt-16">
                 {/* Left Side */}
                 <div className="w-full">
-                    <h1 className=" font-medium text-[62px] leading-[110%] tracking-[-0.03em]" style={{ fontFamily: "Plus Jakarta Sans" }}>
+                    <h1 className="font-medium text-[62px] leading-[110%] tracking-[-0.03em]" style={{ fontFamily: "Plus Jakarta Sans" }}>
                         Tourism Website Design That Increases Bookings and Boosts Sales
                     </h1>
                     <p className="mt-6 font-plusJakarta font-bold text-[16px] leading-[180%]">
@@ -24,7 +25,7 @@ export default function HeroSection() {
 
                     <button className="mt-8 flex items-center space-x-2 text-white px-6 py-3 rounded-full font-manrope font-bold"
                         style={{ backgroundColor: "#313439" }}>
-                        <span>Schedule Call</span>
+                        <span className="font-semibold">Schedule Call</span>
                         <ArrowRight size={20} />
                     </button>
 
@@ -74,7 +75,7 @@ export default function HeroSection() {
                         {/* Stat Box — same height as Pie Card */}
                         <div className="rounded-2xl bg-white text-black p-6 flex flex-col justify-between h-full min-h-[210px]">
                             <div className="rounded-2xl bg-white text-black flex flex-col justify-start h-full">
-                                <div className="text-[60px] leading-none font-extrabold tracking-[-0.02em]" style={{fontFamily: "Manrope"}}>230+</div>
+                                <div className="text-[60px] leading-none font-extrabold tracking-[-0.02em]" style={{ fontFamily: "Manrope" }}>230+</div>
                                 <p className="mt-2 text-sm max-w-[211px] opacity-60">
                                     some big companies that we work with, and trust us very much.
                                 </p>
